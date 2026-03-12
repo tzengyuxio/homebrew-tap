@@ -1,28 +1,28 @@
 class Panimg < Formula
   desc "Next-generation image processing CLI"
   homepage "https://github.com/tzengyuxio/panimg"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tzengyuxio/panimg/releases/download/v#{version}/panimg-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "918fd4dd6a53d0534b9f24a97369d225436b448c380784d9a4b1301a96458983"
+      sha256 "d46cef887e9cdf27a8e8d441a00f7ada2d947ccd14d8760f6504332cd57d80ff"
     end
     on_intel do
       url "https://github.com/tzengyuxio/panimg/releases/download/v#{version}/panimg-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "fbabdf248f4741ec29b34d11c90ded18e8e1c4c45ff2a73b297abb8a3dd4fff0"
+      sha256 "3afd98c07cd641a9828ff77ebdc68acf90f770148bdec097eb74ccb3afdc00fe"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/tzengyuxio/panimg/releases/download/v#{version}/panimg-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "723b2a403ea0507e75ac0c4ba0ecb5159578514315c890f65390f162bd3d76a3"
+      sha256 "a0b182ef76bf45746a7e0f175bfe6028339740d14ce0bdeda5d4ad7a8b4dffb4"
     end
     on_intel do
       url "https://github.com/tzengyuxio/panimg/releases/download/v#{version}/panimg-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bace56eba63304cc984f4013e7a4b82cc2adcdc742b6a6e69dd49519226208af"
+      sha256 "79884d5bc196af53a293444052e8af1da1bc229d080e96029168f2f325089327"
     end
   end
 
