@@ -1,8 +1,8 @@
 class Panaud < Formula
   desc "Next-generation audio processing CLI — built for humans and AI agents"
   homepage "https://github.com/tzengyuxio/panaud"
-  url "https://github.com/tzengyuxio/panaud/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "e07218c4bf640f1cbe68c85e8c0e084a93bfb97a42e3c16b884e5a03f7d93d2e"
+  url "https://github.com/tzengyuxio/panaud/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "cec35cfe5db42a02de66246b106e330a65ee625e07d8bce8aa25a05de5d8e2c6"
   license "MIT"
 
   depends_on "rust" => :build
