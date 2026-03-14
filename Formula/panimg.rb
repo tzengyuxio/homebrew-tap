@@ -1,5 +1,5 @@
 class Panimg < Formula
-  desc "Next-generation image processing CLI"
+  desc "The Swiss Army knife of image processing - built for humans and AI agents alike"
   homepage "https://github.com/tzengyuxio/panimg"
   version "0.3.0"
   license "MIT"
